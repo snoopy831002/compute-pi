@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+double compute_ci(double time[]);
+double compute_error(double Pi);
 double compute_pi_baseline(size_t N);
 double compute_pi_openmp(size_t N, int threads);
 double compute_pi_avx(size_t N);
